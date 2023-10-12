@@ -25,7 +25,7 @@ def checkName(name, names):
 
 
 def main():
-    names = ["Tèa", "Ian", "David", "Hector", "J", "Varad"]
+    names = []
     names, assigned = secret_santa(names=names, gifts=2, seed=413)
     myName = input("Enter your name: ")
     if checkName(myName, names):
